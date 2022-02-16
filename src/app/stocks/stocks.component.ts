@@ -12,14 +12,14 @@ export class StocksComponent implements OnInit {
 
   stocks = STOCKS;
   selectedStock?: Stock;
-  }
+
 
   constructor() { }
 
   ngOnInit(): void {
   }
 
-  onselect(stock: Stock): void {
+  onSelect(stock: Stock): void {
     this.selectedStock = stock
   }
 
