@@ -9,12 +9,12 @@
 </ul>
 
 
-    <div *ngIf="selectedStock">
+<div *ngIf="selectedStock">
 
   <h2>{{selectedStock.name | uppercase}} Details</h2>
   <div>id: {{selectedStock.id}}</div>
   <div>
-    <label for="stock-name">Hero name: </label>
+    <label for="stock-name">Stock name: </label>
     <input id="stock-name" [(ngModel)]="selectedStock.name" placeholder="name">
   </div>
 
